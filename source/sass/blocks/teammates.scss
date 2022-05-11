@@ -1,25 +1,10 @@
 .teammates {
-  background-color: $dark-blue;
+  background: url("../../img/smolov-back-desktop.png") no-repeat right 25px top 69px, url("../../img/rectangle-bg-blue.svg") no-repeat left -30px top 69px, url("../../img/rogovaya-back-desktop.png") no-repeat left -10px top 340px, $dark-blue;
+  background-size: 143px 143px, 143px 143px, 71px 71px;
   color: $white;
   padding: 29px 0;
   border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-  position: relative;
-
-  &::before {
-    width: 100%;
-    height: 100%;
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: 0 auto;
-    z-index: 5;
-    background: url("../../img/smolov-back-desktop.png") no-repeat right 25px top 69px, url("../../img/rectangle-bg-blue.svg") no-repeat left -30px top 69px, url("../../img/rogovaya-back-desktop.png") no-repeat left -10px top 340px;
-    background-size: 143px 143px, 143px 143px, 71px 71px;
-  }
+  border-bottom-right-radius: 30px; 
 
   &--upped {
     margin-top: -30px;

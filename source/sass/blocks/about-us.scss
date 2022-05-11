@@ -1,26 +1,10 @@
 .about-us {
-  background: $dark-blue;
+  background: url("../../img/about-mobile.png") no-repeat left 15px center, url("../../img/rectangle-bg-blue.svg") no-repeat left -30px top -11px, $dark-blue;
   background-size: contain, 143px 143px;
   color: $white;
   padding: 32px 0 60px 0;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
-  position: relative;
-
-  &::after {
-    width: 100%;
-    height: 100%;
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: 0 auto;
-    z-index: 5;
-    background: url("../../img/about-mobile.png") no-repeat left 15px center, url("../../img/rectangle-bg-blue.svg") no-repeat left -30px top -11px;
-    background-size: contain, 143px 143px;
-  }
 }
 
 .about-us__content-wrapper {
